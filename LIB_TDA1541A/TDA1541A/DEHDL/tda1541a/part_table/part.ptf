@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TDA1541A'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "TDA1541A" (!) = "", "DIP1652W53P254L3550H510Q28N", "Dual-In-Line Packages", "", "", "", "", "Stereo high performance 16-bit DAC", "http://lampizator.eu/LAMPIZATOR/LINKS%20AND%20DOWNLOADS/DATAMINING/tda%201541A.pdf", "5.1 mm"
+END_PART
+
+END.

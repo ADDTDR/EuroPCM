@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TDA1541A
+D Stereo high performance 16-bit DAC
+K
+F http://lampizator.eu/LAMPIZATOR/LINKS%20AND%20DOWNLOADS/DATAMINING/tda%201541A.pdf
+$ENDCMP
+#
+#End Doc Library

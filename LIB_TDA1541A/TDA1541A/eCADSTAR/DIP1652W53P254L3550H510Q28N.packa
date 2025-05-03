@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TDA1541A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "DIP1652W53P254L3550H510Q28N")
+        (spec "System")
+    )
+)

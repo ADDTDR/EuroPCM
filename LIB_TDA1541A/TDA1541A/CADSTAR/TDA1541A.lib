@@ -1,0 +1,18 @@
+.TDA1541A :1 ;Stereo high performance 16-bit DAC
+DIP1652W53P254L3550H510Q28N
+*STM IC
+*NGS
+*PLB 1="LE/WS" 2="BCK" 3="DATA L/DATA" 4="DATA R" 5="GND (A)" 6="AOR" 7="DECOU_1" 8="DECOU_2" 9="DECOU_3" 10="DECOU_4" 11="DECOU_5" 12="DECOU_6" 13="DECOU_7" 14="GND (D)" 15="VDD2" 16="COSC_1" 17="COSC_2" 18="DECOU_8" 19="DECOU_9" 20="DECOU_10" 21="DECOU_11" 22="DECOU_12" 23="DECOU_13" 24="DECOU_14" 25="AOL" 26="VDD1" 27="'OB'/TWC" 28="VDD"
+*MXP 28
+*DFN TDA1541A
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (TDA1541A)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://lampizator.eu/LAMPIZATOR/LINKS%20AND%20DOWNLOADS/DATAMINING/tda%201541A.pdf)
+~!Height (5.1mm)
+~!3D_Model (TDA1541A)
+TDA1541A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

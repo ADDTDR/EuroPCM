@@ -1,0 +1,273 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TDA1541A"
+   (description "Stereo high performance 16-bit DAC")
+   (family "ANA")
+   (package "DIP1652W53P254L3550H510Q28N")
+   (attribute "Datasheet Link" "http://lampizator.eu/LAMPIZATOR/LINKS%20AND%20DOWNLOADS/DATAMINING/tda%201541A.pdf")
+   (attribute "Geometry.Height" "5.1mm")
+   (attribute "Manufacturer_Name" "NXP")
+   (attribute "Manufacturer_Part_Number" "TDA1541A")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "TDA1541A")
+    (pin "LE/WS" 1 PS)
+    (pin "BCK" 2 PS)
+    (pin "DATA_L/DATA" 3 PS)
+    (pin "DATA_R" 4 PS)
+    (pin "GND_(A)" 5 PS)
+    (pin "AOR" 6 PS)
+    (pin "DECOU_1" 7 PS)
+    (pin "DECOU_2" 8 PS)
+    (pin "DECOU_3" 9 PS)
+    (pin "DECOU_4" 10 PS)
+    (pin "DECOU_5" 11 PS)
+    (pin "DECOU_6" 12 PS)
+    (pin "DECOU_7" 13 PS)
+    (pin "GND_(D)" 14 PS)
+    (pin "VDD" 28 PS)
+    (pin "$OB$/TWC" 27 PS)
+    (pin "VDD1" 26 PS)
+    (pin "AOL" 25 PS)
+    (pin "DECOU_14" 24 PS)
+    (pin "DECOU_13" 23 PS)
+    (pin "DECOU_12" 22 PS)
+    (pin "DECOU_11" 21 PS)
+    (pin "DECOU_10" 20 PS)
+    (pin "DECOU_9" 19 PS)
+    (pin "DECOU_8" 18 PS)
+    (pin "COSC_2" 17 PS)
+    (pin "COSC_1" 16 PS)
+    (pin "VDD2" 15 PS)
+   )
+  )
+  (symbol "TDA1541A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -1400) (pt 200 -1400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -800) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -900) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1000) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -1300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -800) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -900) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -1000) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -1100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -1200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -1300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIP1652W53P254L3550H510Q28N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -9.39 18.25)
+      (pt 9.39 18.25)
+      (pt 9.39 -18.25)
+      (pt -9.39 -18.25)
+      (pt -9.39 18.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.05 18)
+      (pt 7.05 18)
+      (pt 7.05 -18)
+      (pt -7.05 -18)
+      (pt -7.05 18))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -7.05 16.73)
+      (pt -5.78 18))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.828 18)
+      (pt 7.05 18))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -7.05 -18)
+      (pt 7.05 -18))))
+   (leg 1 (pt -8.262 16.51) (padstack 1))
+   (leg 2 (pt -8.262 13.97) (padstack 0))
+   (leg 3 (pt -8.262 11.43) (padstack 0))
+   (leg 4 (pt -8.262 8.89) (padstack 0))
+   (leg 5 (pt -8.262 6.35) (padstack 0))
+   (leg 6 (pt -8.262 3.81) (padstack 0))
+   (leg 7 (pt -8.262 1.27) (padstack 0))
+   (leg 8 (pt -8.262 -1.27) (padstack 0))
+   (leg 9 (pt -8.262 -3.81) (padstack 0))
+   (leg 10 (pt -8.262 -6.35) (padstack 0))
+   (leg 11 (pt -8.262 -8.89) (padstack 0))
+   (leg 12 (pt -8.262 -11.43) (padstack 0))
+   (leg 13 (pt -8.262 -13.97) (padstack 0))
+   (leg 14 (pt -8.262 -16.51) (padstack 0))
+   (leg 15 (pt 8.262 -16.51) (padstack 0))
+   (leg 16 (pt 8.262 -13.97) (padstack 0))
+   (leg 17 (pt 8.262 -11.43) (padstack 0))
+   (leg 18 (pt 8.262 -8.89) (padstack 0))
+   (leg 19 (pt 8.262 -6.35) (padstack 0))
+   (leg 20 (pt 8.262 -3.81) (padstack 0))
+   (leg 21 (pt 8.262 -1.27) (padstack 0))
+   (leg 22 (pt 8.262 1.27) (padstack 0))
+   (leg 23 (pt 8.262 3.81) (padstack 0))
+   (leg 24 (pt 8.262 6.35) (padstack 0))
+   (leg 25 (pt 8.262 8.89) (padstack 0))
+   (leg 26 (pt 8.262 11.43) (padstack 0))
+   (leg 27 (pt 8.262 13.97) (padstack 0))
+   (leg 28 (pt 8.262 16.51) (padstack 0))
+   (padstack 0
+    (hole 0.73)
+    (plated true)
+    (pad (layer TCOP) (round 1.13))
+    (pad (layer INNER) (round 1.13))
+    (pad (layer BCOP) (round 1.13))
+   )
+   (padstack 1
+    (hole 0.73)
+    (plated true)
+    (pad (layer TCOP) (square 1.13))
+    (pad (layer INNER) (round 1.13))
+    (pad (layer BCOP) (square 1.13))
+   )
+   (model "TDA1541A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

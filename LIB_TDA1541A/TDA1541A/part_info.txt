@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=TDA1541A
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=28
+Version=1.1
+Released=2017-09-17 15:43:48
+Downloaded=2025-05-03 21:36:30
+3D=Y
