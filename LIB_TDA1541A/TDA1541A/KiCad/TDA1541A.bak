@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 -102.87 0)
+			(at -11.43 -48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(symbol "TDA1315H_0_1"
 			(rectangle
 				(start -31.75 31.75)
-				(end 31.75 -87.63)
+				(end 31.75 -31.75)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -64,6 +64,240 @@
 			)
 		)
 		(symbol "TDA1315H_1_1"
+			(pin bidirectional line
+				(at -78.74 -40.64 90)
+				(length 3.81)
+				(name "I2SSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -76.2 -40.64 90)
+				(length 3.81)
+				(name "SDAUX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -66.04 49.53 0)
+				(length 3.81)
+				(name "STROBE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -66.04 46.99 0)
+				(length 3.81)
+				(name "UDAVAIL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -66.04 39.37 0)
+				(length 3.81)
+				(name "SYSCLKI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -66.04 34.29 0)
+				(length 3.81)
+				(name "LDATA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -66.04 17.78 180)
+				(length 3.81)
+				(name "INVALID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -66.04 10.16 180)
+				(length 3.81)
+				(name "LMODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -66.04 -5.08 0)
+				(length 3.81)
+				(name "MUTE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -60.96 -40.64 90)
+				(length 3.81)
+				(name "COPY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -58.42 -40.64 90)
+				(length 3.81)
+				(name "IECIN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -44.45 -40.64 270)
+				(length 3.81)
+				(name "TESTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -41.91 -40.64 270)
+				(length 3.81)
+				(name "IECSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -35.56 20.32 0)
 				(length 3.81)
@@ -173,240 +407,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -35.56 -34.29 0)
-				(length 3.81)
-				(name "STROBE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -35.56 -38.1 0)
-				(length 3.81)
-				(name "UDAVAIL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -35.56 -41.91 0)
-				(length 3.81)
-				(name "SYSCLKI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -35.56 -46.99 0)
-				(length 3.81)
-				(name "LDATA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -35.56 -52.07 0)
-				(length 3.81)
-				(name "MUTE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -35.56 -57.15 0)
-				(length 3.81)
-				(name "INVALID"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -35.56 -62.23 0)
-				(length 3.81)
-				(name "COPY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -35.56 -66.04 0)
-				(length 3.81)
-				(name "IECIN0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -35.56 -71.12 0)
-				(length 3.81)
-				(name "LMODE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -35.56 -73.66 0)
-				(length 3.81)
-				(name "IECSEL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -35.56 -76.2 0)
-				(length 3.81)
-				(name "TESTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -35.56 -80.01 0)
-				(length 3.81)
-				(name "I2SSEL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -35.56 -82.55 0)
-				(length 3.81)
-				(name "SDAUX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -24.13 35.56 270)
 				(length 3.81)
 				(name "RESET"
@@ -479,7 +479,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -91.44 90)
+				(at -11.43 -35.56 90)
 				(length 3.81)
 				(name "FS48"
 					(effects
@@ -497,7 +497,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 -91.44 90)
+				(at -7.62 -35.56 90)
 				(length 3.81)
 				(name "FS44"
 					(effects
@@ -515,7 +515,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 -91.44 90)
+				(at -2.54 -35.56 90)
 				(length 3.81)
 				(name "FS32"
 					(effects
@@ -551,7 +551,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -91.44 90)
+				(at 2.54 -35.56 90)
 				(length 3.81)
 				(name "CHMODE"
 					(effects
@@ -587,7 +587,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -91.44 90)
+				(at 7.62 -35.56 90)
 				(length 3.81)
 				(name "UNLOCK"
 					(effects
@@ -731,7 +731,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -27.94 180)
+				(at 36.83 -41.91 180)
 				(length 3.81)
 				(name "CTRLMODE"
 					(effects
@@ -749,7 +749,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -30.48 180)
+				(at 36.83 -44.45 180)
 				(length 3.81)
 				(name "LADDR"
 					(effects
@@ -767,7 +767,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -33.02 180)
+				(at 36.83 -46.99 180)
 				(length 3.81)
 				(name "LCLK"
 					(effects
@@ -785,7 +785,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -38.1 180)
+				(at 36.83 -52.07 180)
 				(length 3.81)
 				(name "IECO"
 					(effects
@@ -803,7 +803,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -40.64 180)
+				(at 36.83 -54.61 180)
 				(length 3.81)
 				(name "IECOEN"
 					(effects
@@ -821,7 +821,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -43.18 180)
+				(at 36.83 -57.15 180)
 				(length 3.81)
 				(name "TESTB"
 					(effects
@@ -839,7 +839,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -45.72 180)
+				(at 36.83 -59.69 180)
 				(length 3.81)
 				(name "TESTC"
 					(effects
