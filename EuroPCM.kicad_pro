@@ -633,6 +633,18 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
+    ],
+    [
+      "d70013f8-cc00-4f06-af80-5a33e2840dec",
+      "spdif"
+    ],
+    [
+      "65fe1e4e-a973-45d1-bf19-bed393246bf7",
+      "DAC"
+    ],
+    [
+      "ce338077-dd0b-4d12-a9ff-cd3a262d4adc",
+      "filter"
     ]
   ],
   "text_variables": {}
