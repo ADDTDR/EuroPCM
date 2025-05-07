@@ -190,6 +190,10 @@
 	(net 70 "unconnected-(U1-MUTE-Pad32)")
 	(net 71 "unconnected-(U1-UDAVAIL-Pad27)")
 	(net 72 "unconnected-(U1-VDDD2-Pad17)")
+	(net 73 "unconnected-(T1-Pad1)")
+	(net 74 "unconnected-(T1-Pad4)")
+	(net 75 "unconnected-(T1-Pad2)")
+	(net 76 "unconnected-(T1-Pad3)")
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
 		(locked yes)
 		(layer "F.Cu")
@@ -1351,7 +1355,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db987c2f-841b-4159-b08f-127818b8f9a8")
+			(uuid "c7243825-5bb0-4496-92bd-2222c40a2928")
 			(effects
 				(font
 					(size 1 1)
@@ -1364,7 +1368,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b45e74ef-1443-4d03-9a30-c4ffe2e1f80a")
+			(uuid "21aac959-88bf-4b05-8602-409a27450b5c")
 			(effects
 				(font
 					(size 1 1)
@@ -1377,7 +1381,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "871e9f21-7e6f-4aed-9190-f36880ebc2c8")
+			(uuid "c286fa99-8242-4dfa-8f6b-537ab130c638")
 			(effects
 				(font
 					(size 1 1)
@@ -1390,7 +1394,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e334f9a2-e538-48c0-9697-2170a392818b")
+			(uuid "fda9b77f-9995-4476-a3e7-8e8029f34fbb")
 			(effects
 				(font
 					(size 1 1)
@@ -1403,7 +1407,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7bed8c9-6398-41c0-82d9-7cce8387664a")
+			(uuid "bfe01c70-b725-4a59-ad1a-14e97ebd928d")
 			(effects
 				(font
 					(size 1 1)
@@ -1416,7 +1420,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffa6bb6c-834b-4571-aa2f-511d3ca32cff")
+			(uuid "fc7f7509-b1d0-4022-9d85-f6654b8cdbfa")
 			(effects
 				(font
 					(size 1 1)
@@ -1429,7 +1433,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fdd4333-a3ae-4a32-b5f3-e534deec5564")
+			(uuid "92ed1266-7767-45b7-bd7a-f3f2375c14a0")
 			(effects
 				(font
 					(size 1 1)
@@ -1437,9 +1441,9 @@
 				)
 			)
 		)
-		(path "/526848b4-b77d-42e6-b3b9-bc933dc84506")
-		(sheetname "/")
-		(sheetfile "EuroPCM.kicad_sch")
+		(path "/65fe1e4e-a973-45d1-bf19-bed393246bf7/526848b4-b77d-42e6-b3b9-bc933dc84506")
+		(sheetname "/DAC/")
+		(sheetfile "dac.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -8.828 -18)
@@ -1449,7 +1453,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4304e00f-1c91-439c-8621-05ba578785db")
+			(uuid "f69fa756-0cf5-45fe-8fe4-88289351ea16")
 		)
 		(fp_line
 			(start -7.05 18)
@@ -1459,7 +1463,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "191212d7-1bc1-42c3-a5c2-380f3959471d")
+			(uuid "b339cd42-90a1-4418-b29a-25a881670f80")
 		)
 		(fp_line
 			(start -9.39 -18.25)
@@ -1469,7 +1473,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0a386e20-6b7e-4f73-b826-78a6683645b8")
+			(uuid "f62475e0-bbb4-4469-a7e6-9c9fc4cc3fbb")
 		)
 		(fp_line
 			(start -9.39 18.25)
@@ -1479,7 +1483,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e37a33d8-4399-44ac-be78-3fb5c49d9776")
+			(uuid "936b5033-aa9a-4ad8-9198-5a0062d6daf5")
 		)
 		(fp_line
 			(start 9.39 -18.25)
@@ -1489,7 +1493,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f10bf156-26d2-4307-857f-d7eeabdd4377")
+			(uuid "e2c953ea-3ef8-4ec3-b4d9-5d72a32c8655")
 		)
 		(fp_line
 			(start 9.39 18.25)
@@ -1499,7 +1503,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "41308856-c6e4-4359-9684-b7182b986385")
+			(uuid "c2bd104f-74ba-45b0-a4df-c60e9e286635")
 		)
 		(fp_line
 			(start -7.05 -18)
@@ -1509,7 +1513,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3cd48713-1cad-4934-9f36-3a486f595fef")
+			(uuid "0392dcd9-efa8-4eb2-998d-1294fb6fdcba")
 		)
 		(fp_line
 			(start -7.05 -16.73)
@@ -1519,7 +1523,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a503bdf-5a04-492b-bc0d-bb7239134cce")
+			(uuid "e75a3a63-83a7-4946-97d9-a7ee10eb1535")
 		)
 		(fp_line
 			(start -7.05 18)
@@ -1529,7 +1533,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d4a936bc-0c61-4aa6-b3d3-1ede85a0a9e6")
+			(uuid "7917eedb-f5ba-41e5-9972-a9686c80f0a1")
 		)
 		(fp_line
 			(start 7.05 -18)
@@ -1539,7 +1543,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9329bdb1-a0d1-44cb-ac47-2fc4300bedc3")
+			(uuid "d364f2d6-7914-467d-90c9-b909bf637e24")
 		)
 		(fp_line
 			(start 7.05 18)
@@ -1549,7 +1553,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1647efb6-a4ce-4d82-8b1b-822b7ff57f53")
+			(uuid "2f8ac350-b405-4fc5-8650-e14849d42e67")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2084,6 +2088,386 @@
 			(uuid "8ec41d24-090e-4a17-b1cc-d917de68bde5")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Library:PE65612NL"
+		(layer "F.Cu")
+		(uuid "9c272ef2-cea8-4b25-aa54-c66baec935b2")
+		(at 67.79 93.1)
+		(descr "PE-65612NL-5")
+		(tags "Transformer")
+		(property "Reference" "T1"
+			(at 4.755 -2.54 0)
+			(layer "F.SilkS")
+			(uuid "99e0e334-6b00-4893-96e7-b5613612f36e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "PE-65612NL"
+			(at 4.755 -2.54 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "99e74923-d052-4723-9fb1-f67c112674fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/pulse-electronics/PE-65612NL/1812213?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c390c4f0-1caf-4bca-90bb-28b842d90b69")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Audio Transformers / Signal Transformers THT Digital Audio 2500uH 1-Port"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dab27ae-031b-4087-9b3a-df5b44bf63cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Audio Transformers / Signal Transformers THT Digital Audio 2500uH 1-Port"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4cba384-5c4f-4831-a87d-5afb3377ff98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f08c8a-1209-4e5e-9ba4-ef532c327e6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Pulse Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82ab75ab-0204-4596-b3be-07235fab6f07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PE-65612NL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9f986b2-0856-42d8-9759-34181e61a9f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "673-PE-65612NL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a577e85-97f7-4c0e-8c14-35f96d3db9c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-65612NL?qs=0Ba7fqpihnjaWgPSZtGigw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae01eb01-06a3-465d-8007-4dae598d5864")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "PE-65612NL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f66d794-e210-4177-bcfb-8dfca98abe25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pe-65612nl/pulse-electronics-corporation?utm_currency=USD&region=nac"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d1b23dc-3f72-49cd-91de-7927282149b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d70013f8-cc00-4f06-af80-5a33e2840dec/204106e1-656f-4bcb-9002-f23d2349aaba")
+		(sheetname "/spdif/")
+		(sheetfile "spdif.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_line
+			(start -1.92 -0.04)
+			(end -1.92 -0.04)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b2c78488-720b-4c5b-b4db-ce2677948fad")
+		)
+		(fp_line
+			(start -1.82 -0.04)
+			(end -1.82 -0.04)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99c790b0-0277-4115-93a0-0500a68e36be")
+		)
+		(fp_line
+			(start -1.27 -6.985)
+			(end 11.43 -6.985)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0c6eaa6-3ef4-4882-8c39-61f0789719d6")
+		)
+		(fp_line
+			(start -1.27 1.905)
+			(end -1.27 -6.985)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22f5ada5-8942-4f41-aa88-0b1570df9759")
+		)
+		(fp_line
+			(start 11.43 -6.985)
+			(end 11.43 1.905)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bb84f3c-e79a-47f3-9b06-f16b7ef019c1")
+		)
+		(fp_line
+			(start 11.43 1.905)
+			(end -1.27 1.905)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a3a086ec-08df-4275-8672-d645a47fd25d")
+		)
+		(fp_arc
+			(start -1.92 -0.04)
+			(mid -1.87 -0.09)
+			(end -1.82 -0.04)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a1a2312-bf16-47a4-a271-0b4098e286e5")
+		)
+		(fp_arc
+			(start -1.82 -0.04)
+			(mid -1.87 0.01)
+			(end -1.92 -0.04)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "653ae56d-d17d-4420-a6a3-47691150a436")
+		)
+		(fp_line
+			(start -2.92 -7.985)
+			(end 12.43 -7.985)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1a6b0b31-8bab-40e2-a4c8-3172df683c24")
+		)
+		(fp_line
+			(start -2.92 2.905)
+			(end -2.92 -7.985)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8159da5a-7752-4e10-8618-35f8458dc6b2")
+		)
+		(fp_line
+			(start -1.27 -6.985)
+			(end 11.43 -6.985)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e92bdd47-0f70-4451-95bb-b20f47e6bd71")
+		)
+		(fp_line
+			(start -1.27 1.905)
+			(end -1.27 -6.985)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6785d8a5-4e7d-4a47-8003-c34d4c65cd69")
+		)
+		(fp_line
+			(start 11.43 -6.985)
+			(end 11.43 1.905)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e55e9230-c2fb-435c-ab42-a19c989f5397")
+		)
+		(fp_line
+			(start 11.43 1.905)
+			(end -1.27 1.905)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6b49fb4d-9d82-406a-ba71-e234532699b2")
+		)
+		(fp_line
+			(start 12.43 -7.985)
+			(end 12.43 2.905)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "27722fdc-e88a-4af5-8204-f250ea72d6b9")
+		)
+		(fp_line
+			(start 12.43 2.905)
+			(end -2.92 2.905)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "203200a9-0e28-4827-aa19-e36b43020b16")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 1.2 1.2)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net 73 "unconnected-(T1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "64661369-e272-4ec9-a086-0cd6ee8ce464")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -5.08 90)
+			(size 1.2 1.2)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net 75 "unconnected-(T1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "aae248ac-95dd-4bf0-8054-865702968577")
+		)
+		(pad "3" thru_hole circle
+			(at 10.16 0 90)
+			(size 1.2 1.2)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net 76 "unconnected-(T1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "d123c4d1-39de-42af-ae2a-2db9abc55873")
+		)
+		(pad "4" thru_hole circle
+			(at 10.16 -5.08 90)
+			(size 1.2 1.2)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(remove_unused_layers no)
+			(net 74 "unconnected-(T1-Pad4)")
+			(pinfunction "4")
+			(pintype "passive")
+			(uuid "8fee81db-6e42-4a95-a095-e86d9c954f9c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/LIB_PE-65612NL/PE-65612NL/3D/PE-65612NL.stp"
+			(offset
+				(xyz 5 2.6 6.6)
+			)
+			(scale
+				(xyz 1 1.0001 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(gr_rect
 		(start 55 45)

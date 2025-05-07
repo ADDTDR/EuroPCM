@@ -1,0 +1,18 @@
+.PE-65612NL :1 ;Audio Transformers / Signal Transformers THT Digital Audio 2500uH 1-Port
+PE65612NL
+*STM T
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN PE-65612NL
+~!Manufacturer_Name (Pulse Electronics)
+~!Manufacturer_Part_Number (PE-65612NL)
+~!Mouser Part Number (673-PE-65612NL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-65612NL?qs=0Ba7fqpihnjaWgPSZtGigw%3D%3D)
+~!Arrow Part Number (PE-65612NL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pe-65612nl/pulse-electronics-corporation?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.digikey.ph/en/products/detail/pulse-electronics/PE-65612NL/1812213?msockid=3bdc366bbe0663d83c1223c0bf3662a6)
+~!Height (6.6mm)
+~!3D_Model (PE-65612NL)
+PE-65612NL
+1.1!U 2.1!U 3.1!U 4.1!U 

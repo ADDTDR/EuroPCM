@@ -1,0 +1,9 @@
+Manufacturer=Pulse Electronics
+PartNumber=PE-65612NL
+PartCategory=Transformer
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-05-04 08:56:58
+Downloaded=2025-05-07 20:25:47
+3D=Y
