@@ -84,7 +84,7 @@
 		(instances
 			(project "EuroPCM"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ce338077-dd0b-4d12-a9ff-cd3a262d4adc")
-		(property "Sheetname" "filter"
+		(property "Sheetname" "Filter"
 			(at 109.22 56.4384 0)
 			(effects
 				(font
@@ -126,7 +126,7 @@
 		(instances
 			(project "EuroPCM"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
