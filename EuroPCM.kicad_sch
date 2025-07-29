@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "38fe242b-3521-4284-874d-b598d8458d87")
-		(property "Sheetname" "AMP"
+		(property "Sheetname" "Analog Filter"
 			(at 226.06 56.4384 0)
 			(effects
 				(font
